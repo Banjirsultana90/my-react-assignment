@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/QQBXtC7/c-programing.jpg",
+        "name": "Introduction to C Programming",
+        "details":"Learn the fundamentals of the C programming language, including syntax, variables, loops, and functions. Develop your skills in writing basic C programs.",
+        "price":15000,
+        "Credit" : "1hr"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/VCCGHLP/algori.png",
+        "name": "Introduction to Algorithms",
+        "details":"Dive into the world of algorithms and problem-solving techniques. Understand how algorithms work and how to analyze their efficiency. Develop critical thinking skills for algorithm design.",
+        "price":23000,
+        "Credit" : "2hr"
+        
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/bFgp48t/c.jpg",
+        "name": "Introduction to C++ for DSA",
+        "details":"Explore the basics of C++ programming, including object-oriented concepts, classes, inheritance, and polymorphism. Begin building proficiency in C++ development.",
+        "price":25000,
+        "Credit" : "2hr"
+        
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/qDSGP0q/data.jpg",
+        "name": "Basic Data Structures",
+        "details":"Explore essential data structures like arrays, linked lists, stacks, and queues. Understand how to implement and manipulate these structures in various programming languages.",
+        "price":19000,
+        "Credit" : "5hr"
+    
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/YRft5Rh/python.jpg",
+        "name": "Introduction to OOP Python",
+        "details":"Discover Python, a versatile and beginner-friendly programming language. Learn Python syntax, data types, and how to write scripts and applications.",
+        "price":35000,
+        "Credit" : "5hr"
+        
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/QjmMv5y/software.jpg",
+        "name": "Software Engineering",
+        "details":"Learn the principles and practices of software development, including software lifecycle, design patterns, testing, and project management. Understand how to build robust and maintainable software.",
+        "price":23000,
+        "Credit" : "2hr"
+    
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/3SGb2Nh/aws.png",
+        "name": "AWS, Cloud Computing",
+        "details":"Get introduced to cloud computing and AWS services. Learn how to deploy and manage applications in the AWS cloud environment, including EC2 instances, S3 storage, and more.",
+        "price":35000,
+        "Credit" : "5hr"
+
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/f9jttDX/Database-mysql-svg.png",
+        "name":"Database (MySQL)",
+        "details":"Gain knowledge in database management using MySQL. Learn how to design and query relational databases, manage data, and work with SQL.",
+        "price":19000,
+        "Credit" : "5hr"
+        
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/MSxqBTn/problem.jpg",
+        "name": "Problem-Solving Part",
+        "details":"Hone your problem-solving skills by tackling programming challenges and puzzles. Learn strategies and techniques to approach complex coding problems efficiently.",
+        "price":23000,
+        "Credit" : "2hr"
+        
+    }
+    
+]

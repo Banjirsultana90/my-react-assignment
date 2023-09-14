@@ -1,0 +1,9 @@
+.card-container{
+    display: flex;
+}
+.cards{
+    width: 2500px;
+}
+.cart{
+    width: 300px;
+}
