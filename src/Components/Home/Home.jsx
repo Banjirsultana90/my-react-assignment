@@ -23,15 +23,17 @@ const Home = () => {
         if(isExist){
             return alert('Already booked')
         }
+        
         else{
             selectedcard.forEach((item)=>{
                 time=time+item.Credit
                 
             })
             const totalremaining=20-time
-            if(totalhour==20){
+            if(time>20){
                 return alert ('Credit hour finished')
             }
+           
             // console.log(totalremaining)
             settotalhour(time)
             setremaining(totalremaining)
