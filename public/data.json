@@ -20,7 +20,7 @@
         "id": 3,
         "image": "https://i.ibb.co/TTgXX15/C.jpg",
         "name": "Introduction to C++ for DSA",
-        "details":"Explore the basics of C++ programming, including object-oriented concepts, classes, inheritance, and polymorphism. Begin building proficiency in C++ development.",
+        "details":"Explore the basics of C++ programming, including object-oriented concepts, classes,    inheritance, and polymorphism. Begin building  proficiency in C++ development process.",
         "price":25000,
         "Credit" : 2
         
@@ -47,7 +47,7 @@
         "id": 6,
         "image": "https://i.ibb.co/QjmMv5y/software.jpg",
         "name": "Software Engineering",
-        "details":"Learn the principles and practices of software development, including software lifecycle, design patterns, testing, and project management. Understand how to build robust and maintainable software.",
+        "details":"Learn the principles and practices of software development, including software lifecycle, design patterns, testing, and project management and maintainable software.",
         "price":23000,
         "Credit" : 2
     
