@@ -1,0 +1,17 @@
+.cart{
+    width: 300px;
+    border: 2px solid,blue;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.hour{
+    color: blue;
+    /* border-bottom: 1px solid gray; */
+    
+}
+.hr{
+   margin: 10px;
+   color: gray;
+}

@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "image": "https://i.ibb.co/crQnSdv/C.jpg",
+        "image": "https://i.ibb.co/5L6hfBW/C.jpg",
         "name": "Introduction to C Programming",
-        "details":"Learn the fundamentals <br> of the C programming language, including syntax, variables, loops, and functions. Develop your skills in writing basic C programs.",
+        "details":"Learn the fundamentals of the C programming language, including syntax, variables, loops, and functions. Develop your skills in writing basic C programs.",
         "price":15000,
         "Credit" : 1
     },
     {
         "id": 2,
-        "image": "https://i.ibb.co/VCCGHLP/algori.png",
+        "image": "https://i.ibb.co/Ld1s4VT/Algori.png",
         "name": "Introduction to Algorithms",
         "details":"Dive into the world of algorithms and problem-solving techniques. Understand how algorithms work and how to analyze their efficiency. Develop critical thinking skills for algorithm design.",
         "price":23000,
@@ -54,7 +54,7 @@
     },
     {
         "id": 7,
-        "image": "https://i.ibb.co/K9W5c1H/Aws.png",
+        "image": "https://i.ibb.co/JnXStqs/Aws.png",
         "name": "AWS, Cloud Computing",
         "details":"Get introduced to cloud computing and AWS services. Learn how to deploy and manage applications in the AWS cloud environment, including EC2 instances, S3 storage, and more.",
         "price":35000,
@@ -64,7 +64,7 @@
     {
         "id": 8,
         "image": "https://i.ibb.co/g77QVyN/Database-mysql-svg.png",
-        "name":"Database (MySQL)",
+        "name":"Database(MySQL)",
         "details":"Gain knowledge in database management using MySQL. Learn how to design and query relational databases, manage data, and work with SQL.",
         "price":19000,
         "Credit" : 5

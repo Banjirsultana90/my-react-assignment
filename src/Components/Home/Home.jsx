@@ -3,6 +3,7 @@ import './home.css'
 import Cart from '../Cart/Cart';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FaBookOpen, FaDollarSign } from 'react-icons/fa';
 
 
 
@@ -51,7 +52,7 @@ const Home = () => {
     return (
 
         <div className="home-container">
-            <div>Course Registration</div>
+            <h2 className='header'>Course Registration</h2>
             <div className="card-container">
                 <div className="cards">
 
@@ -60,17 +61,30 @@ const Home = () => {
                         cards.map((card) => (
                             <div key={card.key} className='card'>
                                 <div className='card-image'>
-                                    <img src={card.image} />
-                                    <h2>{card.name}</h2>
-                                    <p className='details'>{card.details}</p>
-                                    <div className='price-credit' >
-                                        <p>$Price:{card.price}</p>
-                                        <p>Credit:{card.Credit}hr</p>
+                                    <img className='image' src={card.image} />
+                                </div>
+                                <h3>{card.name}</h3>
+                                <p className='details'>{card.details}</p>
+                                <div className='price-credit' >
+                                    <div className='dollar'>
+                                        <FaDollarSign></FaDollarSign>
+                                        <span>Price:{card.price}</span>
+                                       
+                                    </div>
+                                    <div className='book'>
+                                    <FaBookOpen></FaBookOpen>
+                                    <span>Credit:{card.Credit}hr</span>
+                                    
 
                                     </div>
-                                    <button onClick={() => handleClick(card)}>Select</button>
+
+                                   
+                                   
+
 
                                 </div>
+                                <button className='button' onClick={() => handleClick(card)}>Select</button>
+
 
                             </div>
 
@@ -81,18 +95,19 @@ const Home = () => {
 
 
                 </div>
-                <div className="cart">
+                <div >
                     <Cart selectedcard={selectedcard} totalremaining={remaining} time={totalhour}></Cart>
                 </div>
 
             </div>
             <ToastContainer
-                position="top-center" 
-                hideProgressBar={false} 
-                newestOnTop={true} 
-                rtl={false} 
-                pauseOnFocusLoss={true} 
-                draggable={true} 
+                position="top-center"
+                autoClose={2000}
+                hideProgressBar={false}
+                newestOnTop={true}
+                rtl={false}
+                pauseOnFocusLoss={true}
+                draggable={true}
                 pauseOnHover={true}
             />
 
