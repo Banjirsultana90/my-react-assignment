@@ -7,7 +7,7 @@ import Cart from '../Cart/Cart';
 const Home = () => {
     const [cards, setcards] = useState([])
     const[selectedcard, setselectedcard]=useState([])
-    const [remaing , setremaining]=useState(0)
+    const [remaining , setremaining]=useState(0)
     const[totalhour,settotalhour]=useState(0)
     useEffect(() => {
         fetch('data.json')
@@ -29,6 +29,9 @@ const Home = () => {
                 
             })
             const totalremaining=20-time
+            if(totalhour==20){
+                return alert ('Credit hour finished')
+            }
             // console.log(totalremaining)
             settotalhour(time)
             setremaining(totalremaining)
@@ -73,7 +76,7 @@ const Home = () => {
 
                 </div>
                 <div className="cart">
-                    <Cart selectedcard={selectedcard}></Cart>
+                    <Cart selectedcard={selectedcard} totalremaining={remaining } time={totalhour}></Cart>
                 </div>
 
             </div>
