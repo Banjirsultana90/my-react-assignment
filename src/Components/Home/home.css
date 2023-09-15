@@ -1,9 +1,39 @@
 .card-container{
     display: flex;
+    
 }
 .cards{
-    width: 2500px;
+   width: 800px;
+    /* border: 2px solid,tomato;
+    border: 15px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.card{
+    width: 250px;
+    height: 600px;
+    border: 2px solid tomato;
 }
 .cart{
     width: 300px;
+    border: 2px solid,tomato;
+    
+    
+}
+.card-image{
+    height: 100px;
+    width: 150px;
+}
+.details{
+    font: size 12px; 
+    width: 200px
+    margin-left: auto;
+
+
+}
+.price-credit{
+    display: flex;
+    gap: 10px;
 }
