@@ -5,7 +5,7 @@ import './cart.css'
 const Cart = ({ selectedcard, totalremaining, time }) => {
     return (
         <div className="cart">
-            <h3 className='hour'>Credit hour remaing:{totalremaining}</h3>
+            <h3 className='hour'>Credit hour remaining:{totalremaining}</h3>
             <hr className='hr' />
             <h3>Course Name: </h3>
             <ul className='ul'>
@@ -17,7 +17,7 @@ const Cart = ({ selectedcard, totalremaining, time }) => {
             </ul>
 
             <hr className='hr' />
-            <p>Total Credit Hour {time}: </p>
+            <p>Total Credit Hour {time} </p>
 
         </div>
     );
